@@ -2,6 +2,7 @@
 // >*En utilisant la methode getElementsByTagName et des methodes de parent/enfant/premier element/dernier element/ etc.. PART 1*
 
 // ### 1. Stock la balise body dans une variable du nom de "myBody"
+const myBody = document.getElementsByTagName('body')[0];
 // ### 2. Trouve une méthode pour récuperer le premier élément de "myBody" et affiche le dans un console.log
 // ### 3. Trouve une méthode pour récuperer le dernièr élément de "myBody" et affiche le dans un console.log
 // ### 4. Trouve une méthode pour récuperer tous les enfants de la premiere div puis stock dans une variable "exo4" et affiche la dans un console.log
