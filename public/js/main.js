@@ -14,7 +14,10 @@ const exo4 = document.getElementsByTagName('div')[0].children;
 console.log(exo4);
 // ### 5. Récupère le premier li, puis trouve une méthode JS pour afficher l'élément suivant( c'est a dire le second li ) et affiche le résultat dans un CL
 let firstListItem = document.getElementsByTagName('li')[0];
-let secondListItem = firstListItem.nextSibling;
+let secondListItem = firstListItem.nextElementSibling;
 console.log(secondListItem);
 // ### 6. Récupère le second élément puis trouve une méthode JS pour afficher l'élément précédant( c'est a dire le premier li ) et affiche le résultat dans un CL
+let secondListItemBis = document.getElementsByTagName('li')[1];
+let firstListItemBis = secondListItemBis.previousElementSibling;
+console.log(firstListItemBis);
 
